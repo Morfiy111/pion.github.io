@@ -165,6 +165,7 @@ a:hover {
     width: 40px;
     height: 40px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 .right-ground-param {
     margin-bottom: 30px;
@@ -206,4 +207,63 @@ a:hover {
 }
 .footer-social-links {
     font-size: 30px;
+}
+.header-page-logo img {
+    width: 100%;
+}
+@media (max-width: 1450px) {
+    .left-aside, .right-aside {
+        width: 20%;
+    }
+    .pgd_main {
+        width: 60%;
+    }
+    .header-page-slogan h1 {
+        font-size: 32px;
+    }
+    .header-page-logo {
+        width: 270px;
+    }
+}
+@media(max-width: 1199px) {
+    .header-page-slogan h1 {
+        font-size: 26px;
+    }
+    .footer-address {
+        width: 43%;
+    }
+    .footer-copyright {
+        width: 35%;
+    }
+    .header-page-logo {
+        width: 223px;
+    }
+    .header-phone-block a {
+        font-size: 20px;
+    }
+    .right-aside {
+        padding: 15px 15px 20px 15px;
+    }
+    .search-list-item {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 991px) {
+    .header-page-phone {
+        width: 232px;
+    }
+    .header-page-logo {
+        width: 232px;
+    }
+    .header-page-slogan {
+        text-align: center;
+        width: 35%;
+        width: 35%;
+    }
+    .left-aside, .right-aside {
+        width: 25%;
+    }
+}
+@media (max-width: 767px) {
+
 }
