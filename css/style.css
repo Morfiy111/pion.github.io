@@ -20,12 +20,14 @@ a:hover {
 .header-page-slogan h1 {
     text-transform: uppercase;
     color: #fff;
+    font-weight: bold;
+    font-size: 38px;
 }
 .header-phone-block a {
     display: block;
-    color: #ffd300;
+    color: #333;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     text-decoration: none;
 }
 .header-phone-block a:hover {
@@ -135,8 +137,12 @@ a:hover {
     text-align: center;
     font-weight: bold;
 }
+.right-forms-block {
+    display: flex;
+    justify-content: space-between;
+}
 .right-forms-block input {
-    width: 100%;
+    width: 48%;
     margin-bottom: 10px;
     padding: 5px 10px;
     border-radius: 4px;
@@ -177,14 +183,14 @@ a:hover {
     width: 4vw;
 }
 .footer-page-block {
-    background-color: #009fe2;
+    background-color: #ff8000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 .footer-page-block a {
-    color: #ffd300;
+    color: #333;
 }
 .footer-page-block a:hover {
     color: #fff;
