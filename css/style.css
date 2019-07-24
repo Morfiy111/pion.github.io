@@ -78,9 +78,6 @@ a:hover {
     padding-left: 0;
     list-style-type: none;
 }
-.content-folder-tree ul ul {
-    padding-left: 20px;
-}
 .left-aside-item {
     border-radius: 0px 30px 30px 0px;
 }
@@ -100,4 +97,28 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.left-aside-item a {
+    color: #333;
+}
+.left-aside-item > ul > li > span {
+    background-color: #cccccc;
+}
+.sub-menu-goods li img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+.sub-menu-goods {
+    background-color: #e3e3e3;
+}
+.sub-menu-goods li {
+    position: relative;
+    padding: 10px;
+}
+.sub-menu-goods li h4 {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
 }
