@@ -9,19 +9,29 @@ a:hover {
     color: #ff9000;
 }
 .header-page {
-    background-color: #009fe2;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+.main-header-bgd {
+    position: absolute;
+    width: 100%;
 }
 .header-page-logo {
     padding: 20px;
+    z-index: 1;
+    width: 14%;
 }
 .header-page-slogan h1 {
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
     font-size: 38px;
+}
+.header-phone-block {
+    z-index: 1;
+    padding-top: 8px;
+    padding-right: 70px;
 }
 .header-phone-block a {
     display: block;
@@ -217,6 +227,9 @@ a:hover {
 .left-aside-mobile {
     display: none;
 }
+.header-page-slogan {
+    display: none;
+}
 @media (max-width: 1450px) {
     .left-aside, .right-aside {
         width: 20%;
@@ -227,8 +240,10 @@ a:hover {
     .header-page-slogan h1 {
         font-size: 32px;
     }
-    .header-page-logo {
-        width: 270px;
+}
+@media (max-width: 1400px) {
+    .header-phone-block a {
+        font-size: 18px;
     }
 }
 @media(max-width: 1199px) {
@@ -241,9 +256,6 @@ a:hover {
     .footer-copyright {
         width: 35%;
     }
-    .header-page-logo {
-        width: 223px;
-    }
     .header-phone-block a {
         font-size: 20px;
     }
@@ -253,13 +265,16 @@ a:hover {
     .search-list-item {
         padding: 0 15px;
     }
+    .header-phone-block a {
+        font-size: 16px;
+    }
 }
 @media (max-width: 991px) {
     .header-page-phone {
-        width: 232px;
+        width: 222px;
     }
     .header-page-logo {
-        width: 232px;
+        width: 20%;
     }
     .header-page-slogan {
         text-align: center;
@@ -268,6 +283,24 @@ a:hover {
     }
     .left-aside, .right-aside {
         width: 25%;
+    }
+    .main-header-bgd {
+        display: none;
+    }
+    .header-page {
+        background-color: #009de2;
+    }
+    .header-page-slogan {
+        display: block;
+    }
+    .header-phone-block a {
+        font-size: 20px;
+    }
+    .header-page {
+        align-items: center;
+    }
+    .header-phone-block {
+        padding-right: 0;
     }
 }
 @media (max-width: 710px) {
