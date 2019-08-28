@@ -20,7 +20,7 @@ a:hover {
 .header-page-logo {
     padding: 20px;
     z-index: 1;
-    width: 14%;
+    width: 12.5%;
 }
 .header-page-slogan h1 {
     text-transform: uppercase;
@@ -78,6 +78,7 @@ a:hover {
 }
 .content-folder-tree ul ul {
     display: none;
+    border-radius: 0px 30px 30px 0px;
 }
 .main-block-site {
     display: flex;
