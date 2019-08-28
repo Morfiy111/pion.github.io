@@ -12,6 +12,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     position: relative;
+    align-items: flex-start;
 }
 .main-header-bgd {
     position: absolute;
@@ -141,8 +142,9 @@ a:hover {
 }
 .right-aside {
     width: 15%;
-    padding: 25px 15px 40px 15px;
+    padding: 40px 15px 40px 15px;
     background-color: #cccccc;
+    margin-top: -35px;
 }
 .right-title {
     text-align: center;
@@ -302,6 +304,9 @@ a:hover {
     }
     .header-phone-block {
         padding-right: 0;
+    }
+    .right-aside {
+        margin-top: 0;
     }
 }
 @media (max-width: 710px) {
